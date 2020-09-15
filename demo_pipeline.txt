@@ -9,12 +9,12 @@ pipeline{
     }
     stages{
         stage("this is stage 1"){
-            step{
+            steps{
                 echo"step1"
             }
         }
         stage("this is stage2"){
-            step{
+            steps{
                 echo"step2"
             }
         }
