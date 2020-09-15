@@ -1,0 +1,22 @@
+//goal-demo pipeline.......
+//authore-sanjay
+pipeline{
+    agent{
+        node{
+            label'master'
+        }
+
+    }
+    stages{
+        stage('this is stage 1'){
+            step{
+                echo"step1"
+            }
+        }
+        stage('this is stage2'){
+            step{
+                echo"step2"
+            }
+        }
+    }
+}
